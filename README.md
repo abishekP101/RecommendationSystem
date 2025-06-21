@@ -58,12 +58,7 @@ Explanation Engine: The Langchain-Groq LLM explains why the movie is recommended
 
 Filtering: Users can optionally filter recommendations by genre.
 
-📊 Sample Dataset
-Your dataset (vectorized_movies.csv) must include the following columns:
 
-movie_id	title	overview	genres	vector
-19995	Avatar	...	['Action', 'Sci-Fi']	[0.01, -0.02, ...]
-285	Pirates...	...	['Adventure', 'Fantasy']	[0.03, -0.01, ...]
 
 ✅ TODOs / Enhancements
  Add ratings-based filtering
