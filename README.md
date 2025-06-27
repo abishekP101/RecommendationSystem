@@ -15,26 +15,6 @@ This project is an intelligent, content-based movie recommender system built usi
 
 🖥️ Interactive Web UI using Streamlit
 
-📁 Project Structure
-bash
-Copy
-Edit
-├── app.py                  # Main Streamlit application
-├── vectorized_movies.csv  # Preprocessed dataset with title, genres, vector embeddings
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
-🛠️ Setup Instructions
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/movie-recommender-app.git
-cd movie-recommender-app
-2. Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
 3. Add API Keys
 Set the following environment variables or use st.secrets in Streamlit:
 
